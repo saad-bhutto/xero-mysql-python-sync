@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "XERO_CLIENT_ID": "YOUR_XERO_CLIENT_ID_HERE",
+    "XERO_CLIENT_SECRET": "YOUR_XERO_CLIENT_SECRET_HERE",
+    "XERO_REDIRECT_URI": "http://localhost:7071/api/auth/callback",
+    "XERO_WEBHOOK_KEY": "YOUR_XERO_WEBHOOK_KEY_HERE",
+    "DB_HOST": "127.0.0.1",
+    "DB_PORT": 3306,
+    "DB_DATABASE": "xero_sync",
+    "DB_USERNAME": "root",
+    "DB_PASSWORD": "root",
+    "SYNC_LOOKBACK_DAYS": "60"
+  }
+}
